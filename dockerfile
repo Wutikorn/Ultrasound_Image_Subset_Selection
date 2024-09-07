@@ -1,5 +1,5 @@
 # Base Image
-FROM pytorch/pytorch:latest
+FROM python:3.10.12-slim-buster
 
 # Set the working directory inside the container
 WORKDIR /app
