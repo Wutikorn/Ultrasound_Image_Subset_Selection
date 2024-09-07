@@ -1,8 +1,12 @@
 # Efficient Image Subset Selection for Ultrasound Video Frame Analysis via Spectral Clustering and Deep Feature with SonoNet Integration
 
-```markdown
+
+## Overview
+
+![Efficient Image Subset Selection Process](images/Final-Framework-Ultrasound.png)
+
 This project aims to efficiently select a representative subset of frames (keyframes) from ultrasound videos for analysis. It leverages spectral clustering techniques and deep feature extraction to identify frames that capture the most significant variations and information within the video. The image subset selection is integrated with SonoNet to provide summary of each fetal standard plane scan from SonoNet's output.
-```
+
 
 ## Features
 
