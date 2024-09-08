@@ -5,10 +5,15 @@
 
 ![Efficient Image Subset Selection Process](images/Final-Framework-Ultrasound.png)
 
-This project aims to efficiently select a representative subset of frames (keyframes) from ultrasound videos for analysis. It leverages spectral clustering techniques and deep feature extraction to identify frames that capture the most significant variations and information within the video. The image subset selection is integrated with SonoNet to provide summary of each fetal standard plane scan from SonoNet's output.
+This project aims to efficiently select a representative subset of frames (keyframes) from ultrasound videos for analysis. It leverages spectral clustering techniques and deep feature extraction to identify frames that capture the most significant variations and information within the video. 
+
+This repository contains two main parts:
+
+* **Ultrasound_Image_Subset_Selection_with_SonoNet:** This folder contains the implementation for image subset selection specifically for 3-channel ultrasound video data. It integrates with SonoNet to provide a summary of each fetal standard plane scan from SonoNet's output. **The instructions in this README file are specific to the code and setup within this folder.**
+* **Image Subset Selection for Other Datasets:** This folder contains implementations for image subset selection on other datasets, including ImageNet VID, SumMe, and ultrasound grayscale image data. **Each subfolder within this directory has its own dedicated README file with specific instructions for running the code.**
 
 
-## Features
+## Features (for Ultrasound_Image_Subset_Selection_with_SonoNet)
 
 * **Spectral Clustering:** Groups similar frames together based on their deep features.
 * **Deep Feature Extraction:** Uses a pre-trained ResNet50 model fine-tuned on ultrasound images to extract meaningful features.
@@ -21,7 +26,8 @@ This project aims to efficiently select a representative subset of frames (keyfr
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Wutikorn/Ultrasound_Image_Subset_Selection.git
-   cd your-repository
+   cd Ultrasound_Image_Subset_Selection_with_SonoNet
+   cd 
    ```
 
 2. **Build the Docker Image:**
