@@ -26,8 +26,8 @@ This repository contains two main parts:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Wutikorn/Ultrasound_Image_Subset_Selection.git
+   cd your-repository
    cd Ultrasound_Image_Subset_Selection_with_SonoNet
-   cd 
    ```
 
 2. **Build the Docker Image:**
